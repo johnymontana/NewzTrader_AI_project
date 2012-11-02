@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  1 NOV 2012 16:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 NOV 2012 08:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -100,13 +100,6 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen117
-\WF@size=\dimen118
-\c@WF@wrappedlines=\count99
-\WF@box=\box28
-\WF@everypar=\toks17
-Package: wrapfig 2003/01/31  v 3.6
 ) (./TSWLatexianTemp_GradProjPaper.aux)
 \openout1 = `TSWLatexianTemp_GradProjPaper.aux'.
 
@@ -201,20 +194,20 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-\c@lstlisting=\count100
+\c@lstlisting=\count99
  (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen119
-\scratchbox=\box29
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen120
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count100
+\scratchdimen=\dimen117
+\scratchbox=\box28
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen118
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks18
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -237,14 +230,14 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -289,84 +282,35 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
-
-
-Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 25.
-
-<cum_graph.png, id=1, 926.5014pt x 547.8066pt>
+ <cum_graph.png, id=1, 926.5014pt x 547.8066pt>
 File: cum_graph.png Graphic file (type png)
  <use cum_graph.png>
 Package pdftex.def Info: cum_graph.png used on input line 27.
 (pdftex.def)             Requested size: 231.62479pt x 136.95131pt.
 
-Overfull \hbox (4.00275pt too wide) in paragraph at lines 27--28
- [][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/cmr/m/n/9 This data pro-vides the ba-sis for this pa-per.
- []
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 30.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 38.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 39.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 41.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 43.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 45.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 47.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 48.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 50.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 52.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 54.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 56.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 57.
-
-[1
-
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./cum_graph.png>] (./TSWLatexianTemp_GradProjPaper.aux) )
+ <./cum_graph.png>] (./TSWLatexianTemp_GradProjPaper.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 15 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3710 strings out of 493488
- 54336 string characters out of 3141326
- 114173 words of memory out of 3000000
- 6984 multiletter control sequences out of 15000+200000
- 8194 words of font info for 29 fonts, out of 3000000 for 9000
+ 3640 strings out of 493488
+ 53453 string characters out of 3141326
+ 112967 words of memory out of 3000000
+ 6920 multiletter control sequences out of 15000+200000
+ 7587 words of font info for 27 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,7n,32p,297b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on TSWLatexianTemp_GradProjPaper.pdf (2 pages, 132278 bytes).
+ 37i,8n,32p,297b,244s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on TSWLatexianTemp_GradProjPaper.pdf (1 page, 112889 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
