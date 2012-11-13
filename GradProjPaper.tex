@@ -7,14 +7,15 @@
 %\usepackage{wrapfig}
 \begin{document}
 
-\title{Autonomous Trading Agent Implementation Using Natural Language Processing Of News Headlines: An Introduction}
+\title{Autonomous Trading Agent Implementation Using Natural Language Processing Of News Headlines}
 \author{William Lyon}
 \date{\today}
 \maketitle
 
-\abstract{Natural Language Processing techniques are used to examine financial news headlines and generate predictions of stock price movements.  
+\abstract{Natural Language Processing techniques are used to examine financial news headlines and generate predictions of stock price movements.  News headlines from the Wall Street Journal from January 1, 2009 to November 1, 2012 are collected and paired with daily S\&P 500 index returns.  This information is used to train a Naive Bayes classifier and generate BUY/SELL trading signals.  This trading strategy is then backtested using Wall Street Journal news headlines as a predictor for movement in the price of the S\&P 500 index. }
 
 \section{Introduction}
+In finance, the Efficient Market Hypothesis states that all publicly available information is reflected in financial market prices.  As new information becomes available, prices adjust to take this new information into account.  
 \subsection{Motivation}
 This tool could be used as a component of an autonomous trading agent that will make BUY/SELL decisions for trading financial instruments.
 \subsection{Literature Review}
@@ -35,12 +36,12 @@ Google Finance provides access to historical stock quotes as well as links to fi
 %\includegraphics[angle=45,width=52mm]{cum_graph.png}
 Here is some more text after the figure. The figure is somewhat floating i guess.  There is even more text after the figure.  
 
-\section{Methodology}
+\section{Classification Methodology}
+These tuples of [return, listOfDailyNews] are used as the training data for a Naive Bayes classifier. 
+\subsection{Classes}
+
 \subsection{Naive Bayes}
 
-\subsection{Decision Tree}
-
-\subsection{Maximum Entropy}
 
 \section{Implementation}
 
@@ -59,6 +60,7 @@ Here is some more text after the figure. The figure is somewhat floating i guess
 
 \section{Trading Model}
 \subsection{Trading Signals}
+\subsection{Backtesting}
 \section{Conclusions}
 \subsection{Further research}
 
