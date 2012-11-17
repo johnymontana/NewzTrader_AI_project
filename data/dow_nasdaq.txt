@@ -1,0 +1,3 @@
+CSCO
+INTC
+MSFT

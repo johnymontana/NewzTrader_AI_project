@@ -7,7 +7,7 @@
 %\usepackage{wrapfig}
 \begin{document}
 
-\title{Autonomous Trading Agent Implementation Using Natural Language Processing Of News Headlines}
+\title{NewzTrader: Autonomous Trading Agent Implementation Using Natural Language Processing Of News Headlines}
 \author{William Lyon}
 \date{\today}
 \maketitle
@@ -18,11 +18,26 @@
 In finance, the Efficient Market Hypothesis states that all publicly available information is reflected in financial market prices.  As new information becomes available, prices adjust to take this new information into account.  
 \subsection{Motivation}
 This tool could be used as a component of an autonomous trading agent that will make BUY/SELL decisions for trading financial instruments.
+
+Goals: 1) 
 \subsection{Literature Review}
 
-\section{Data}
+\section{Examining The Data}
 Google Finance provides access to historical stock quotes as well as links to financial news stories pertaining to specific stocks. This data provides the basis for this paper.
-\begin{figure}[htb]
+
+\subsection{News Headlines}
+A total of 101,618 news headlines over 1416 days were collected with an average of 71 headlines per day.  After aligning with financial data:
+UP: 14651
+DOWN: 13718
+NONE: 57405
+TOTOAL: 85775
+
+Prior probs:
+UP: 0.1708
+DOWN: 0.1599
+NONE:  0.6693
+
+\begin{figure}[h!]
 %\begin{wrapfigure}{o}{8cm}
 \centering
 \includegraphics[scale=0.25]{cum_graph.png}
@@ -34,8 +49,6 @@ Google Finance provides access to historical stock quotes as well as links to fi
 %\includegraphics[height=60mm]{cum_graph.jpg}
 %\includegraphics[scale=0.75]{myfig.pdf}
 %\includegraphics[angle=45,width=52mm]{cum_graph.png}
-Here is some more text after the figure. The figure is somewhat floating i guess.  There is even more text after the figure.  
-
 \section{Classification Methodology}
 These tuples of [return, listOfDailyNews] are used as the training data for a Naive Bayes classifier. 
 \subsection{Classes}
@@ -65,4 +78,23 @@ These tuples of [return, listOfDailyNews] are used as the training data for a Na
 \subsection{Further research}
 
 \section{References}
+
+\onecolumn
+\section{Source Code Listings}
+
+\lstset{frame=shadowbox, numbers=left, float, caption=newsCredScraper.py: scrapes WSJ news headlines, language=Python, breaklines=True, columns=fullflexible, rulesepcolor=\color{blue}}
+\lstinputlisting{src/newsCredScraper.py}
+
+\lstset{frame=shadowbox, numbers=left, float, caption=dataGetter.py: downloads historical S\&P 500 index price data and joins with WSJ news  headlines / identifies news headline classifications and saves in format for corpus reader, language=Python, breaklines=True, columns=fullflexible, rulesepcolor=\color{blue}}
+\lstinputlisting{src/dataGetter.py}
+
+\lstset{frame=shadowbox, numbers=left, float, caption=nbTrainer.py: loads news corpus / trains Naive Bayes classifier, language=Python, breaklines=True, columns=fullflexible, rulesepcolor=\color{blue}}
+\lstinputlisting{src/nbTrainer.py}
+
+\lstset{frame=shadowbox, numbers=left, float, caption=backTest.py: simulates trading using trading signals generated from WSJ news headlines using Naive Bayes classifier, language=Python, breaklines=True, columns=fullflexible, rulesepcolor=\color{blue}}
+\lstinputlisting{src/backTest.py}
+
+\lstset{frame=shadowbox, numbers=left, float, caption=NewzTrader.py, language=Python, breaklines=True, columns=fullflexible, rulesepcolor=\color{blue}}
+\lstinputlisting{src/NewzTrader.py}
+
 \end{document}
