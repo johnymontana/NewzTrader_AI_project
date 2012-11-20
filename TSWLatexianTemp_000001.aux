@@ -2,24 +2,40 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Motivation}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Literature Review}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Data}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Examining The Data}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Historical Stock Market Quotes}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}News Headlines}{1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Cumulative frequency plot}}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Methodology}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Naive Bayes}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Decision Tree}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Maximum Entropy}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dependencies}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Data Collection \& Munging}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Training NLP Classifier}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Backtesting}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Accuracy}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Most informative features}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Precision}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Recall}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Trading Model}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Trading Signals}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusions}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Further research}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}References}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Classification Methodology}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Classes}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Naive Bayes}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Maximum Entropy}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Implementation}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dependencies}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Data Collection \& Munging}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Feature Extraction}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Bag of words}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2}Filtering stopwords}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3}Include significant bigrams}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Naive Bayes Classifier}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Maximum Entropy Classifier}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Backtesting}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Accuracy}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Most informative features}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Precision}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Recall}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Trading Model}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Trading Signals}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Backtesting}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Portfolio value with backtesting strategy}}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusions}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Backtest buy/sell signals}}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Further research}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}References}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Source Code Listings}{4}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}newsCredScraper.py: scrapes WSJ news headlines}{4}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {2}dataGetter.py: downloads historical S\&P 500 index price data and joins with WSJ news headlines / identifies news headline classifications and saves in format for corpus reader}{5}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {3}nbTrainer.py: loads news corpus / trains Naive Bayes classifier}{6}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4}backTest.py: simulates trading using trading signals generated from WSJ news headlines using Naive Bayes classifier}{7}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5}NewzTrader.py}{7}}
